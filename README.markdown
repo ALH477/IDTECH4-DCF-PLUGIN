@@ -2,10 +2,10 @@
 
 **Version 1.0.0 | August 15, 2025**  
 **Developed by DeMoD LLC**  
-**Contact:** info@demodllc.example  
+**Contact:** info@demod.ltd (N/A)  
 **License:** GNU General Public License v3.0 (GPL-3.0)  
 **Repository:** [github.com/DeMoD-LLC/IDTECH4-DCF-PLUGIN](https://github.com/DeMoD-LLC/IDTECH4-DCF-PLUGIN)  
-[![Build Status](https://github.com/DeMoD-LLC/IDTECH4-DCF-PLUGIN/workflows/CI/badge.svg)](https://github.com/DeMoD-LLC/IDTECH4-DCF-PLUGIN/actions)  
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
 [![Coverage](https://img.shields.io/badge/Coverage-85%25-green.svg)](https://github.com/DeMoD-LLC/IDTECH4-DCF-PLUGIN)
 
