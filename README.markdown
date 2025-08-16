@@ -173,7 +173,7 @@ IDTECH4-DCF-PLUGIN/
 - **Hub Scalability**: Loadable .so or standalone binary offloads NAT/P2P, scales to 100+ clients at <2% CPU.
 
 ## Contributing
-See `.github/ISSUE_TEMPLATE.md`. PRs require tests, coverage >85%. Contact info@demodllc.example for major changes.
+See `.github/ISSUE_TEMPLATE.md`. PRs require tests, coverage >85%. Contact info@demod.ltd for major changes.
 
 ## Compliance
 GPLv3 ensures open derivatives. No encryption for EAR/ITAR compliance. Verify extensions legally; DeMoD LLC not liable.
