@@ -164,7 +164,7 @@ IDTECH4-DCF-PLUGIN/
   Connect forks: `+set net_dcf_hub localhost:50051`.
 - **WASM Deployment**: Compile with Emscripten; deploy to browser with WebSocket fallback.
 
-## Why This Implementation is Exceptional
+## Why This Implementation is Effective
 - **Efficiency**: Zero-copy Protobuf embeds, frame-integrated health checks (no threads), <0.1% overhead—profiled on real hardware.
 - **Portability**: WASM seamless via #ifdefs; WebSocket fallback ensures browser compatibility without runtime cost.
 - **Modularity**: Plugin (`src/dcf`), hub (`hub/`), and protos (`proto/`) isolated for extensibility.
