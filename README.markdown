@@ -9,6 +9,8 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
 [![Coverage](https://img.shields.io/badge/Coverage-85%25-green.svg)](https://github.com/DeMoD-LLC/IDTECH4-DCF-PLUGIN)
 
+(Updates coming soon. Architecture has been reworked with similar solutions)
+
 ## Overview
 The **IDTECH4-DCF-PLUGIN** integrates the DeMoD Communications Framework (DCF) into id Tech 4 engine forks, enhancing multiplayer networking with low-latency P2P, self-healing redundancy, and flexible transport layers (UDP, TCP, WebSocket, gRPC). Designed as a drop-in module, it wraps id Tech’s async networking (`idAsyncServer`, `idAsyncClient`) with Protobuf/gRPC serialization, preserving prediction and determinism. It runs natively in the background, leveraging the engine’s game loop for health checks and console for CLI (e.g., `dcf_status` for peer status). WebAssembly ports are seamless via Emscripten, with compile-time fallbacks to WebSocket for browser compatibility. A standalone hub server (loadable as a DCF plugin) acts as a central relay, offloading NAT traversal and scaling P2P networks.
 
